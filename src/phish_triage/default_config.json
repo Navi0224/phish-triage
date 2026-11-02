@@ -1,0 +1,187 @@
+{
+  "weights": {
+    "spf_fail": 15,
+    "dkim_fail": 15,
+    "dmarc_fail": 25,
+    "auth_results_missing": 5,
+    "reply_to_mismatch": 20,
+    "return_path_mismatch": 5,
+    "display_name_spoof": 30,
+    "lookalike_domain": 35,
+    "href_text_mismatch": 25,
+    "url_ip_host": 15,
+    "url_shortener": 10,
+    "html_credential_form": 20,
+    "risky_attachment_type": 25,
+    "double_extension": 35,
+    "office_macro": 30,
+    "executable_content": 35,
+    "urgency_language": 10,
+    "credential_language": 15,
+    "payment_change_language": 20,
+    "enrichment_virustotal_malicious": 40,
+    "enrichment_urlhaus_listed": 40
+  },
+  "thresholds": {
+    "likely_phish": 60,
+    "suspicious": 30
+  },
+  "max_score": 100,
+  "trusted_authserv_ids": [],
+  "lookalike_max_distance": 2,
+  "lookalike_min_brand_length": 5,
+  "protected_brands": [
+    {
+      "name": "Maybank",
+      "domains": [
+        "maybank2u.com.my",
+        "maybank.com"
+      ],
+      "display_names": [
+        "maybank",
+        "maybank2u"
+      ]
+    },
+    {
+      "name": "CIMB",
+      "domains": [
+        "cimbclicks.com.my",
+        "cimb.com"
+      ],
+      "display_names": [
+        "cimb",
+        "cimb clicks"
+      ],
+      "lookalike_targets": [
+        "cimbclicks.com.my"
+      ]
+    },
+    {
+      "name": "PayPal",
+      "domains": [
+        "paypal.com"
+      ],
+      "display_names": [
+        "paypal"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "domains": [
+        "microsoft.com",
+        "microsoftonline.com",
+        "office.com",
+        "live.com",
+        "outlook.com"
+      ],
+      "display_names": [
+        "microsoft",
+        "office 365",
+        "microsoft 365",
+        "outlook"
+      ],
+      "lookalike_targets": [
+        "microsoft.com",
+        "microsoftonline.com"
+      ]
+    }
+  ],
+  "url_shorteners": [
+    "bit.ly",
+    "tinyurl.com",
+    "t.co",
+    "goo.gl",
+    "is.gd",
+    "ow.ly",
+    "cutt.ly",
+    "rebrand.ly",
+    "s.id"
+  ],
+  "risky_extensions": [
+    ".exe",
+    ".scr",
+    ".com",
+    ".pif",
+    ".bat",
+    ".cmd",
+    ".js",
+    ".jse",
+    ".vbs",
+    ".vbe",
+    ".wsf",
+    ".hta",
+    ".ps1",
+    ".lnk",
+    ".msi",
+    ".jar",
+    ".iso",
+    ".img",
+    ".vhd",
+    ".vhdx",
+    ".html",
+    ".htm",
+    ".shtml",
+    ".svg",
+    ".one",
+    ".xll",
+    ".docm",
+    ".xlsm",
+    ".pptm",
+    ".dotm",
+    ".xlam"
+  ],
+  "decoy_extensions": [
+    ".pdf",
+    ".doc",
+    ".docx",
+    ".xls",
+    ".xlsx",
+    ".ppt",
+    ".pptx",
+    ".txt",
+    ".jpg",
+    ".png",
+    ".csv",
+    ".rtf"
+  ],
+  "urgency_phrases": [
+    "urgent",
+    "immediately",
+    "within 24 hours",
+    "account will be suspended",
+    "suspended",
+    "final notice",
+    "action required",
+    "verify now",
+    "as soon as possible",
+    "will expire",
+    "expires today",
+    "last warning"
+  ],
+  "credential_phrases": [
+    "verify your account",
+    "confirm your identity",
+    "update your password",
+    "login to",
+    "log in to",
+    "sign in to",
+    "reset your password",
+    "enter your credentials",
+    "tac",
+    "one-time password",
+    "otp",
+    "unusual sign-in",
+    "unusual activity"
+  ],
+  "payment_change_phrases": [
+    "change of bank details",
+    "new bank account",
+    "updated bank details",
+    "wire transfer",
+    "remittance",
+    "outstanding invoice",
+    "payment to the new account",
+    "gift cards",
+    "do not call"
+  ]
+}

@@ -1,0 +1,44 @@
+Return-Path: <bounce-2026-10@bounces.example.com>
+Authentication-Results: mx.example.org; spf=pass
+ smtp.mailfrom=bounces.example.com; dkim=pass header.d=example.com; dmarc=pass
+ header.from=example.com
+Received: from out.news.example.com (out.news.example.com [192.0.2.10]) by
+ mx.example.org (Postfix) with ESMTPS id 55E10; Thu, 15 Oct 2026 08:00:12
+ +0800
+From: Example Tech Weekly <newsletter@news.example.com>
+To: reader@example.org
+Subject: Example Tech Weekly: 5 tips for writing better unit tests
+Date: Thu, 15 Oct 2026 08:00:00 +0800
+Message-ID: <weekly-2026-42@news.example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3860835887206323717=="
+
+--===============3860835887206323717==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Example Tech Weekly - Issue 42
+
+This week: 5 tips for writing better unit tests.
+Read the article at https://www.example.com/articles/better-unit-tests
+
+You are receiving this because you subscribed at www.example.com.
+Unsubscribe: https://news.example.com/unsubscribe
+
+--===============3860835887206323717==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body>
+<h1>Example Tech Weekly - Issue 42</h1>
+<p>This week: 5 tips for writing better unit tests.</p>
+<p><a href=3D"https://www.example.com/articles/better-unit-tests">Read the ar=
+ticle</a></p>
+<p>You are receiving this because you subscribed at <a href=3D"https://www.ex=
+ample.com/">www.example.com</a>.
+<a href=3D"https://news.example.com/unsubscribe">Unsubscribe</a></p>
+</body></html>
+
+--===============3860835887206323717==--

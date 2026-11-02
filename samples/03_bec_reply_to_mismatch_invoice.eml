@@ -1,0 +1,35 @@
+Return-Path: <finance@example-supplies.example>
+Authentication-Results: mx.example.com; spf=fail (198.51.100.199 is not
+ permitted) smtp.mailfrom=example-supplies.example; dkim=none; dmarc=fail
+ (p=none) header.from=example-supplies.example
+Received: from vps-01.hosting.example (vps-01.hosting.example
+ [198.51.100.199]) by mx.example.com (Postfix) with ESMTP id 1AA02; Wed, 14
+ Oct 2026 16:45:10 +0800
+From:
+ Finance Manager - Example Supplies Sdn Bhd <finance@example-supplies.example>
+Reply-To: Finance Manager <finance.examplesupplies@example.net>
+To: accounts@example.com
+Subject: Change of bank details for outstanding invoice
+Date: Wed, 14 Oct 2026 16:45:02 +0800
+Message-ID: <b3c1e2@vps-01.hosting.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Dear Accounts Team,
+
+Please be informed that due to an ongoing audit, we have updated bank details=
+ for all incoming payments.
+Kindly make payment for the outstanding invoice (MYR 48,750.00) by wire trans=
+fer to the new bank account below as soon as possible.
+
+Bank: Example Bank Berhad
+Account name: Example Supplies Trading
+Account number: 0000-0000-0000 (sample)
+
+This is urgent as our old account will be closed this week. Please do not cal=
+l our office as the lines are being upgraded; reply to this email to confirm.
+
+Best regards,
+Finance Manager
+Example Supplies Sdn Bhd

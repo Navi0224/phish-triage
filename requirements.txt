@@ -1,0 +1,4 @@
+# The tool itself needs only the Python standard library.
+# These pins are for development (tests) and the optional --enrich feature.
+pytest==9.1.1
+requests==2.34.2

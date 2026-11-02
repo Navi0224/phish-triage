@@ -1,0 +1,60 @@
+Return-Path: <ap@globex-logistics.example>
+Authentication-Results: mx.example.com; spf=pass
+ smtp.mailfrom=globex-logistics.example; dkim=fail (body hash did not verify)
+ header.d=globex-logistics.example; dmarc=fail
+ header.from=globex-logistics.example
+Received: from smtp.globex-logistics.example (smtp.globex-logistics.example
+ [192.0.2.77]) by mx.example.com (Postfix) with ESMTPS id 7C11D; Tue, 13 Oct
+ 2026 10:02:41 +0800
+From: Accounts Payable <ap@globex-logistics.example>
+To: finance@example.com
+Subject: Overdue invoice INV-2026-0193 - final notice
+Date: Tue, 13 Oct 2026 10:02:30 +0800
+Message-ID: <inv20260193.1013@globex-logistics.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5411033984065412017=="
+
+--===============5411033984065412017==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This is a final notice for outstanding invoice INV-2026-0193.
+Please review the attached invoice and payment details and settle immediately=
+ to avoid service interruption.
+
+Regards,
+Accounts Payable
+Globex Logistics (fictional)
+
+--===============5411033984065412017==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-0193.pdf.exe"
+MIME-Version: 1.0
+
+TVoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTWU5USEVUSUMgVEVTVCBTQU1QTEUgZm9y
+IHBoaXNoLXRyaWFnZS4gVGhpcyBpcyBOT1QgYSByZWFsIHByb2dyYW0gYW5kIGNhbm5vdCBydW4u
+Cg==
+
+--===============5411033984065412017==
+Content-Type: application/vnd.ms-word.document.macroEnabled.12
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Payment_Details.docm"
+MIME-Version: 1.0
+
+UEsDBBQAAAAIAIm1Yl3muHRrXgAAAGIAAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbBXMyw2DMAwA
+0FVQ7sSBQw8VnyVYIIpcQMR2FFsobI/6BnjT2ih3N1Y9hWc3+ODWZdqegto1yqyzO8zKF0DTgRTV
+S0FulH9SKZp6qTuUmK64I4whfCAJG7L19j8cLC9QSwMEFAAAAAgAibViXax6hWpfAAAAaQAAABEA
+AAB3b3JkL2RvY3VtZW50LnhtbAXByw3DIAwA0FUiBsC0hx5QPrMg4iZI2EY2LYyf99ZjUl3+qFaE
+N/fywR37OuIp+UfIfZlU2eLY3N17iwCWb6RkXhrypPoVpdTNi14wRM+mktGs8EUV3iF8gFJhB/sD
+UEsDBBQAAAAIAIm1Yl1HKr6zTwAAAE4AAAATAAAAd29yZC92YmFQcm9qZWN0LmJpbgXBUQqAIBAF
+wKu8A1R3MBMMpKIk6DN0JcFcSPvo9s1sx2S1sqPEYoRUejaDWtEiM/ZewLGnBpzTh3oRQkyEfN6E
+WPAW8gj8wFMlVyPn7gdQSwECFAMUAAAACACJtWJd5rh0a14AAABiAAAAEwAAAAAAAAAAAAAAgAEA
+AAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQIUAxQAAAAIAIm1Yl2seoVqXwAAAGkAAAARAAAAAAAA
+AAAAAACAAY8AAAB3b3JkL2RvY3VtZW50LnhtbFBLAQIUAxQAAAAIAIm1Yl1HKr6zTwAAAE4AAAAT
+AAAAAAAAAAAAAACAAR0BAAB3b3JkL3ZiYVByb2plY3QuYmluUEsFBgAAAAADAAMAwQAAAJ0BAAAA
+AA==
+
+--===============5411033984065412017==--
